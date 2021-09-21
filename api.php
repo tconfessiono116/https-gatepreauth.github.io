@@ -249,7 +249,7 @@ if(strpos($result, '"status":"LIVE"')){
   echo "<font size=3 color='green'><font class='badge badge-warning'>Aprovada <i class='zmdi zmdi-check'></i></font> $cc|$mes|$ano|$cvv <font size=3 color='green'><font class='badge badge-warning'>STOLEN CARD</i></font> </i> </font><br>";
   }
   elseif(strpos($result, "Your card's security code is incorrect.")) {
-  echo "<font size=3 color='green'><font class='badge badge-light'>Aprovada <i class='zmdi zmdi-check'></i></font> $cc|$mes|$ano|$cvv <font size=3 color='green'><font class='badge badge-light'>CVV INCORRECT</i></font> <font class='badge badge-light'";
+  echo "<font size=3 color='green'><font class='badge badge-light'>Aprovada <i class='zmdi zmdi-check'></i></font> $cc|$mes|$ano|$cvv <font size=3 color='green'><font class='badge badge-light'>CVV INCORRECT</i></font><br> <font class='badge badge-light'";
   }
   elseif(strpos($result, "pickup_card" )) {
   echo "<font size=3 color='green'><font class='badge badge-warning'>Aprovada <i class='zmdi zmdi-check'></i></font> $cc|$mes|$ano|$cvv <font size=3 color='green'><font class='badge badge-warning'>STOLEN OR LOST</i></font> </i> </font><br>";
