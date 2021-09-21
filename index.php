@@ -39,7 +39,7 @@
         <div class="content-wrapper-before"></div>
         <div class="content-header row">
            <div align='left' class="content-header-left col-md-4 col-12 mb-2">
-            <h3 class="content-header-title">CHECKER 2cMONSTERS</h3>
+            <h3 class="content-header-title">GATE AUTH CVC+CCN</h3>
           </div>
         </div>
         <div class="content-body"><!-- Basic form layout section start -->
